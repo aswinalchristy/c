@@ -18,6 +18,6 @@ int main() {
 
 
     
-    printf("The reversed number is: %d\n", reverse);
+    printf("The reversed number %d is: %d\n",reverse);
     return 0;
 }
