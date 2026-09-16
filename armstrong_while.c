@@ -17,7 +17,7 @@ int main(){
 
     orig_n=n;
     while(n>0){
-        
+
         n=n/10;
         digits++;
     }
@@ -33,4 +33,5 @@ int main(){
     }else {
         printf("The number %d is Not Armstrong",orig_n);
     }
+    return 0;
 }
