@@ -17,8 +17,9 @@ int main(){
 
     orig_n=n;
     while(n>0){
-        digits++;
+        
         n=n/10;
+        digits++;
     }
     n=orig_n;
 
