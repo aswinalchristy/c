@@ -19,6 +19,7 @@ int main(){
 
     }
     nextterm=a+b;
+    
     a=b;
     b=nextterm;
 
