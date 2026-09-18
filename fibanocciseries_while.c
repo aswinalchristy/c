@@ -4,7 +4,7 @@
 
 int main(){
     int a=0,b=1,nextterm,n;
-    int i=0;
+    int i=1;
 
     printf("enter the series number");
     scanf("%d",&n);
