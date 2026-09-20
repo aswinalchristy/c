@@ -12,7 +12,7 @@ int main(){
     printf("Fibanocci Series\n");
 
     while(i<=n){
-        printf("%d",a);
+        printf("%d",nextterm);
     
     if(i<n){
         printf( " , ");
