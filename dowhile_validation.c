@@ -20,3 +20,4 @@ int main(){
     printf("\nValid mark accepted %d",mark);
     return 0;
 }
+
