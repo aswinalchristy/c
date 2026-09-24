@@ -5,7 +5,7 @@ int main(){
     int arr[3];
 
     for (int i=0;i<3;i++){
-        printf("enter the number for index [%d]",i);
+        printf("enter the number for index [%d]\n",i);
 
         scanf("%d",&arr[i]);
     }
@@ -16,6 +16,3 @@ int main(){
     }
     return 0;
 }
-
-
-    
