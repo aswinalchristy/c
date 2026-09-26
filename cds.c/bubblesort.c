@@ -1,3 +1,5 @@
+//bubble sort
+
 #include <stdio.h>
 
 int main() {
@@ -23,7 +25,7 @@ int main() {
     for (int i = 0; i < n; i++) {
         printf("%d%s", arr[i], (i == n - 1) ? "" : " ");
     }
-    printf("\n");
+    printf("\n ");
     
     return 0;
 }
