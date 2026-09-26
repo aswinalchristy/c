@@ -1,4 +1,5 @@
 /*Problem: Linear SearchProblem Statement: Write a C program that reads $N$ integer values into an array and accepts one additional integer value as the search element (target). Check if the target exists in the array. If present, print its index position; otherwise, print "Element not found".*/
+//linear search
 
 #include<stdio.h>
 
@@ -25,9 +26,10 @@ int main(){
             foundindex=i;
             break;
         }
-
     }
+
     if(foundindex!=-1){
+
         printf("The element is present at the index %d",foundindex);
     }else{
         printf("The element is not found");
