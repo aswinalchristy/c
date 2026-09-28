@@ -4,10 +4,10 @@ int main(){
     int age;
     scanf("%d",&age);
 
-    if((age>=13 && age<=18)||age>10)
+    if((age>=13 && age<=18) && age>10)
     {printf("teenage");
     }else {
         printf("No");
     }return 0;
 
-}
+} 
