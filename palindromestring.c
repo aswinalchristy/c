@@ -27,8 +27,7 @@ int main(){
     if(ispalindrome==1){
         printf("Palindrome\n");
     }else{
-
-        printf("Not Palindrome");
+        printf("Not a Palindrome");
     }
 
 }
