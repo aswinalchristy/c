@@ -1,4 +1,5 @@
-#include <stdio.h>
+//to print the ascii value for the character
+ #include <stdio.h>
 
 int main() {
     char ch;
