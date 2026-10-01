@@ -18,7 +18,7 @@ int main(){
     printf("enter the target : ");
     scanf(" %c",&target);
 
-    for(int i=0;i<target;i++){
+    for(int i=0;i<length;i++){
         if(str[i]==target){
             tar++;
         }
